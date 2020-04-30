@@ -1,0 +1,23 @@
+{
+    "name": "imdhemy/codewars-php",
+    "description": "Achieve code mastery through challenge",
+    "authors": [
+        {
+            "name": "imdhemy",
+            "email": "imdhemy@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src//"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests//"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
