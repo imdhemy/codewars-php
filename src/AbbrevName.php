@@ -2,7 +2,7 @@
 
 namespace App;
 
-class CodeWars
+class AbbrevName
 {
     /**
      * @param string $name

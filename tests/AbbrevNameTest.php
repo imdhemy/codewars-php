@@ -2,10 +2,10 @@
 
 namespace Tests;
 
-use App\CodeWars;
+use App\AbbrevName;
 use PHPUnit\Framework\TestCase;
 
-class CodeWarsTest extends TestCase
+class AbbrevNameTest extends TestCase
 {
     /**
      * @test
@@ -16,7 +16,7 @@ class CodeWarsTest extends TestCase
      */
     public function test_it_generate_name_initials($name, $result)
     {
-        $this->assertEquals($result, CodeWars::abbrevName($name));
+        $this->assertEquals($result, AbbrevName::abbrevName($name));
     }
 
     public function namesDataProvider(): array
