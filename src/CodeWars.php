@@ -2,9 +2,6 @@
 
 namespace App;
 
-use function explode;
-use function strtoupper;
-
 class CodeWars
 {
     /**
